@@ -1,0 +1,503 @@
+@charset "UTF-8";
+#features,
+#use,
+#service,
+#info,
+#info_list,
+#single_page {
+  padding: 8% 0;
+}
+#info_list,
+#single_page{
+  width:95%;
+  margin:0 auto;
+}
+#kv .ovf,
+#features .ovf,
+#use .ovf,
+#service .ovf,
+#info .ovf,
+footer .ovf {
+  width: 95%;
+  margin: 0 auto;
+}
+.pc_tb_display,.pc_display{
+  display: none !important;
+}
+.phone{
+  text-align:center;
+  width: 44%;
+  margin: 0 auto;
+}
+/***************************** Header ***************************/
+header,
+#kv,
+#features,#info {
+  background: #f9f9f9;
+}
+header{
+  padding: 1.5% 0 1%;
+  box-sizing: border-box;
+}
+header nav{
+  position: relative;
+}
+header nav .right span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 42px;
+  margin: auto;
+}
+header nav .logo.left a{
+  position: relative;
+  display: block;
+  height: 50px;
+}
+header nav .logo.left a img{
+  position: absolute;
+  top: 0;
+  right:0;
+}
+header nav{
+  overflow: hidden;
+  width: 95%;
+  margin: 0 auto;
+}
+header nav .logo {
+  font-weight: bold;
+  font-size: 27px;
+  width: 50px;
+  height: 50px;
+}
+/************************** Header end **************************/
+
+/***************************** TOP ******************************/
+#kv {
+  padding: 6% 0 12% 0;
+}
+
+#kv .ovf{
+  position: relative;
+  padding-bottom: 57%;
+}
+#kv .ovf h1 {
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 1.8;
+  position: relative;
+}
+#kv .ovf .left{
+  float: none;
+  position: absolute;
+  bottom: 0;
+}
+#kv .ovf .left p {
+  color: #ababab;
+  font-size: 4vw;
+}
+#kv .ovf .right{
+  float: none;
+  width: 100%;
+}
+#kv .ovf .right img{
+  width: 100%;
+  height: auto;
+}
+.mv_signin_btn a{
+  background: #111;
+  width: 100%;
+  display: block;
+  color: #fff!important;
+  padding: 8px 0;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: normal;
+}
+#features .ovf {
+  margin-bottom: 8%;
+}
+#features .ovf .left,
+#features .ovf .right {
+  float: none;
+}
+#features .ovf .left .btn,#features .ovf .right .btn{
+    margin-top: 10%;
+}
+#features .ovf h2,
+#use .ovf h2,
+#service .ovf h2,
+#info .ovf h2 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3%;
+  width: 100%;
+}
+#features .ovf h2 span,
+#use .ovf h2 span,
+#service .ovf h2 span,
+#info .ovf h2 span {
+  color: #fb9f7f;
+  text-align: center;
+  font-weight: normal;
+  display: block;
+  margin: -10px auto 0px auto;
+  position: relative;
+  width: 155px;
+  font-size: 13px;
+}
+#features .ovf .right ul li,
+#features .ovf .left ul li {
+  overflow-wrap: anywhere;
+  margin-bottom: 6%;
+}
+#features .ovf h3{
+  font-weigth:bold;
+  margin-top: 6%;
+}
+.sign_up_btn a{
+  background: #111;
+  width: 80%;
+  display: block;
+  color: #fff!important;
+  padding: 8px 0;
+  margin: 5% auto;
+  text-align: center;
+  font-weight: normal;
+}
+#use .ovf ul li {
+  width: 48%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+#use .ovf ul li:nth-child(odd) {
+  float: left;
+}
+#use .ovf ul li:nth-child(even) {
+  float: right;
+}
+#use .ovf ul li:last-child {
+  float: none !important;
+  clear: both;
+  margin: 0 auto;
+  width: 48%;
+}
+#use .ovf ul li a{
+  overflow:hidden;
+  display:block;
+}
+#use .ovf ul li span {
+  padding: 3%;
+  box-sizing: border-box;
+  border: 2px solid #111;
+  border-radius: 50%;
+}
+#use .ovf ul li h3 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 12px;
+}
+#use .ovf ul li p {
+  overflow-wrap: break-word;
+  line-height: 1.6;
+  color: #ababab;
+  font-size: 14px;
+}
+.btn a{
+  background: #111;
+  color: #fff!important;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 0;
+  margin: 4% auto;
+  display:block;
+  width: 80%;
+  font-size: 14px;
+}
+#service .ovf h2 {
+  text-align: center;
+}
+#menu{
+  cursor:pointer;
+}
+#menu_bx {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.9);
+}
+.closeBtn {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.closeBtn span {
+  color: #fff;
+  font-size: 42px;
+}
+#menu_bx ul{
+  padding: 0 20%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+@media (orientation: landscape){
+
+}
+#menu_bx ul li{
+  text-align:center;
+}
+#menu_bx ul li a{
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 6vh;
+  display:block;
+}
+#menu_bx ul li:last-child a{
+  margin-bottom:0;
+}
+.material-icons-outlined {
+  font-size: 42px !important;
+}
+
+/************************** Footer **************************/
+footer{
+  color: #fff;
+  background: #111;
+  overflow:hidden;
+  padding:3% 0;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+}
+footer .ovf{
+  position: relative;
+}
+footer .ovf .left{
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+}
+footer .ovf .left a{
+  display: block;
+  height: 40px;
+}
+footer .ovf .right{
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+footer .ovf .right li{
+  display: inline-block;
+  margin: 0 0 0 6%;
+}
+footer .ovf .right li a{
+  color: #fff!important;
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+/************************** Footer end **********************/
+
+/**************************** Single ************************/
+#single_page h1{
+  font-size: 22px;
+  font-weight: bold;
+}
+#single_page time{
+  width: 100%;
+  text-align: right;
+  display: block;
+  color:#ababab;
+  font-weight:bold;
+  font-size:14px;
+}
+#single_page .btn{
+  margin-top:5%;
+}
+/************************** Single end **********************/
+
+/**************************** info **************************/
+
+#info .ovf .btn a{
+  color:#fff;
+  font-weight:bold;
+  text-align:center;
+}
+#info .ovf ul li {
+  overflow: hidden;
+  border-bottom: 1px dashed #ddd;
+  padding: 2% 0;
+  box-sizing: border-box;
+}
+#info .ovf ul li .left {
+  width: 70%;
+}
+#info .ovf ul li .right {
+  text-align: right;
+  width: 30%;
+}
+#info .ovf ul li h3 {
+  font-weight: bold;
+}
+#info .ovf ul li .left p,
+#info .ovf ul li .right p {
+  line-height: 1.8;
+  color: #ababab;
+  font-size: 14px;
+}
+#info .ovf ul li a:hover{
+  cursor: pointer;
+  opacity:0.7;
+}
+#info .ovf .btn {
+  margin-top: 10%;
+}
+#info_list ul li{
+  border-bottom:1px dashed #ddd;
+  box-sizing:border-box;
+  padding:2%;
+}
+#info_list ul li a{
+  overflow:hidden;
+  display: block;
+}
+#info_list ul li a h2{
+  color: #111;
+  font-weight: bold;
+}
+#info_list ul li a .left{
+  width: 77%;
+}
+#info_list ul li a .left p{
+  line-height: 1.8;
+  color: #ababab;
+  font-size: 14px;
+}
+#info_list ul li a .right{
+  width: 23%;
+  text-align: right;
+}
+#info_list ul li a .left{
+  width:70%;
+}
+#info_list ul li a .right{
+  width:30%;
+}
+#info_list ul li a .left,#info_list ul li a .right{
+  color:#ababab;
+}
+#info_list ul li a .right time{
+  font-size:14px;
+  font-weight:bold;
+}
+/************************** info end **********************/
+
+/******************** contact *************************/
+.Contact_btn{
+  width:50%;
+}
+.Contact_btn a{
+  background: #111;
+  color: #fff!important;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px 0;
+  margin-top: 5%;
+  width: 100%;
+  display:block;
+  font-size: 14px;
+}
+form{
+  margin: 8% auto;
+  width: 95%;
+  padding: 3%;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+.contact_bx h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.contact_bx ul li{
+  margin-bottom: 2%;
+}
+.contact_bx ul li p input,.contact_bx ul li p textarea{
+  width: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+.contact_bx .personal_info{
+  text-align: center;
+}
+.confirmation{
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background: #111;
+  width: 50%;
+  padding: 8px 0;
+  margin: 2% auto 0 auto;
+  display: block;
+  font-weight: bold;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+.confirmation:hover{
+  cursor:pointer;
+}
+.completed{
+  margin: 8% auto;
+  width: 95%;
+  padding: 3%;
+}
+.completed p{
+  text-align:center;
+}
+.completed p button{
+  width: 50%;
+  margin: 2% auto 0 auto;
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+.completed p button a{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background: #111;
+  width: 100%;
+  padding: 8px 0;
+  display: block;
+  font-weight: bold;
+}
+/******************** contact end *********************/
+
+.menu_sign_btn{
+  background:#fff;
+  color:#111;
+}

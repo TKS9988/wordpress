@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* インポート start ------------------------------------------------*/
+
+@import url("sp_style.css") screen and (max-width: 750px);
+@import url("sp_common.css") screen and (max-width: 750px);
+
+@import url("tb_style.css") screen and (max-width: 1000px) and
+  (min-width: 751px);
+@import url("tb_common.css") screen and (max-width: 1000px) and
+  (min-width: 751px);
+
+@import url("pc_style.css") screen and (min-width: 1001px);
+@import url("pc_common.css") screen and (min-width: 1001px);
+
+/* インポート end --------------------------------------------------*/

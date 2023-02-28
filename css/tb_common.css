@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* 共通設定 start --------------------------------------------------*/
+
+body{
+/*	font-family:'メイリオ',meiryo,'ＭＳ Ｐゴシック','MS PGothic','osaka','sans-serif';*/
+font-family: 'Paytone One', sans-serif;
+	color:#111;
+	font-size: 18px;
+	line-height:2;
+	letter-spacing:0.1em;
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 110px;
+}
+
+td,tr{
+	font-size:13px;
+}
+
+a:link {
+	color:#111;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#111;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#111;
+	text-decoration: none;
+}
+
+a:active {
+	color:#111;
+	text-decoration: none;
+}
+
+
+*{margin:0px;padding:0px;} 
+h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;}
+p{margin:0px;padding:0px;}
+.hdn{display: none;}
+li{list-style:none;}
+.last{margin:0!important;padding:0!important;}
+.left{float:left;}
+.right{float:right;}
+img{vertical-align:bottom;width:100%;}
+a img{border:none;}
+article, aside, figure, figcaption, footer, header, nav, section{display: block;}
+.ie7_class6{height:0 !important;}
+.ovf{overflow:hidden;}
+
+header,
+#kv,
+#features{
+  background: #f9f9f9;
+}
+header nav,
+#kv .ovf,
+#features .ovf,
+#use .ovf,
+#service .ovf,
+#info .ovf,
+footer .ovf {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#features .ovf{
+  margin: 0 auto 80px auto;
+}
+#features,
+#use,
+#service,
+#info{
+  padding: 10% 0;
+  overflow: hidden;
+}
+#info .ovf h2,
+#use .ovf h2,
+#service .ovf h2,
+#features .ovf h2 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 28px;
+}
+#use .ovf h2 span,
+#service .ovf h2 span,
+#features .ovf h2 span,
+#info .ovf h2 span {
+  display: block;
+  line-height: 1.2;
+  color: #fb9f7f;
+  font-size: 17px;
+  margin-bottom: -1%;
+  position: relative;
+  width: 130px;
+  margin: -10px auto 0 auto;
+  font-weight:normal;
+}
+.pc_display,.sp_display {
+  display: none !important;
+}
+.not_pc {
+  display: block !important;
+}
+.sp_display{
+  display:none!important;
+}
+/* 共通設定 end ----------------------------------------------------*/

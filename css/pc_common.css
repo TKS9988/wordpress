@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* 共通設定 start --------------------------------------------------*/
+* html{
+	margin-top: 28px !important;
+}
+body{
+	font-family: 'Paytone One', sans-serif;
+	color:#111;
+	font-size: 18px;
+	line-height:2;
+	letter-spacing:0.1em;
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 110px;
+}
+
+td,tr{
+	font-size:13px;
+}
+
+a:link {
+	color:#000;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+a:active {
+	color:#000;
+	text-decoration: none;
+}
+
+
+*{margin:0px;padding:0px;} 
+h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;}
+p{margin:0px;padding:0px;}
+li{list-style:none;}
+.left{float:left;}
+.right{float:right;}
+img{vertical-align:bottom;width:100%;}
+a img{border:none;}
+article, aside, figure, figcaption, footer, header, nav, section{display: block;}
+.ie7_class6{height:0 !important;}
+.ovf{overflow:hidden;}
+header nav,
+#kv .ovf{
+  width: 80%;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1475px;
+}
+header,
+#kv,
+#features {
+  background: #f9f9f9;
+}
+#features,
+#use,
+#service,
+#info,#features {
+  padding: 120px 0;
+}
+#features .ovf,
+#use .ovf,
+#service .ovf,
+#info .ovf {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1475px;
+  min-width: 1000px;
+}
+#features .ovf{
+  margin: 0 auto 80px auto;
+}
+#use .ovf h2 span,
+#service .ovf h2 span,
+#info .ovf h2 span,
+#features .ovf h2 span{
+  font-weight: normal;
+  color: #fb9f7f;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 2;
+  position: relative;
+  width: fit-content;
+  margin: -15px auto 0 auto;
+}
+.sp_display{
+  display:none;
+}
+/* 共通設定 end ----------------------------------------------------*/

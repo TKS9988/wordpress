@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* 共通設定 start --------------------------------------------------*/
+
+body {
+  background: #fff;
+/*  font-family: "メイリオ", meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "osaka","sans-serif";*/
+  font-family: 'Paytone One', sans-serif;
+  color: #111;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 110px;
+  font-size: 16px;
+}
+
+td,
+tr {
+  font-size: 13px;
+}
+
+a:link {
+  color: #111;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+a:active {
+  color: #111;
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.hdn {
+  display: none;
+}
+li {
+  list-style: none;
+}
+.last {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+img {
+  vertical-align: bottom;
+}
+a img {
+  border: none;
+}
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+.ie7_class6 {
+  height: 0 !important;
+}
+.ovf {
+  overflow: hidden;
+}
+img{width:100%;}
+/* 共通設定 end ----------------------------------------------------*/
